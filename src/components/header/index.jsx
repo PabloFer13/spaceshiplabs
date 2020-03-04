@@ -1,9 +1,10 @@
 import React from 'react';
+import { Header } from '../../theme';
 
 const HeaderComponent = () => (
-  <header>
+  <Header>
     <h1>Header (:</h1>
-  </header>
+  </Header>
 );
 
 export default HeaderComponent;
