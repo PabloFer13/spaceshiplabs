@@ -5,6 +5,8 @@ const DarkBlue = '#475BC3';
 const Green = '#1FDEB2';
 const Green2 = '#05D3CF';
 const GreenLight = '#4BE7B7';
+const Gray = '#EFEFEF';
+const GrayLight = '#fafafa';
 
 // sizes
 const MediumScreen = '960';
@@ -18,6 +20,8 @@ export default {
   Green,
   Green2,
   GreenLight,
+  Gray,
+  GrayLight,
   GradientBlueGreen: `linear-gradient(to right,${Blue2} 0,${Green} 100%)`,
   GradientGreenDarkBlue: `linear-gradient(to right,${Green2} 0,${DarkBlue} 100%)`,
   GradientText: `-webkit-linear-gradient(50deg,${Blue2} 0,${Green} 100%)`,
