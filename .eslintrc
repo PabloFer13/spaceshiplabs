@@ -4,5 +4,9 @@
     "strict": 0,
     "react/jsx-filename-extension": "off"
   },
-  "extends": "airbnb"
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true
+  }
 }
