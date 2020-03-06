@@ -6,6 +6,7 @@ import { Section, Container } from '../theme';
 
 import HomeBannerComponent from '../components/homebanner';
 import MencionesComponent from '../components/menciones';
+import SectionTitleComponent from '../components/sectiontitle';
 
 const ComponentsPage = () => (
   <Layout>
@@ -16,7 +17,9 @@ const ComponentsPage = () => (
     {/* Menciones component start */}
     <Section isFullPage color="gray">
       <Container>
-        <h2>Menciones</h2>
+        <SectionTitleComponent>
+          <h2>Menciones</h2>
+        </SectionTitleComponent>
         <MencionesComponent />
       </Container>
     </Section>
