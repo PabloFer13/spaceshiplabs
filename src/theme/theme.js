@@ -10,7 +10,7 @@ const GrayLight = '#fafafa';
 const GrayDark = '#7C7C7C';
 const White = '#fff';
 
-// sizes
+// Break points
 const MediumScreen = '960';
 const MediumSmallScreen = '600';
 const SmallScreen = '400';
@@ -33,4 +33,6 @@ export default {
   MediaQueryMedium: `@media(min-width: ${MediumScreen}px)`,
   MediaQueryMediumSmall: `@media(min-width: ${MediumSmallScreen}px)`,
   MediaQuerySmall: `@media(min-width: ${SmallScreen}px)`,
+  // font sizes
+  SmallText: '14px',
 };

@@ -35,6 +35,10 @@ export const Container = styled.div`
   padding: 0px 20px;
 `;
 
+export const ContainerXL = styled(Container)`
+  max-width: 1200px;
+`;
+
 export const Rows = styled.div`
   display: flex;
   flex-direction: row;

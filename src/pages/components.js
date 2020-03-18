@@ -7,6 +7,7 @@ import { Section, Container } from '../theme';
 import HomeBannerComponent from '../components/homebanner';
 import MencionesComponent from '../components/menciones';
 import SectionTitleComponent from '../components/sectiontitle';
+import ContactSharedComponent from '../components/contacfooter';
 
 const ComponentsPage = () => (
   <Layout>
@@ -24,6 +25,9 @@ const ComponentsPage = () => (
       </Container>
     </Section>
     {/* Menciones component end */}
+    {/* Contact component start */}
+    <ContactSharedComponent />
+    {/* Contact component end */}
   </Layout>
 );
 

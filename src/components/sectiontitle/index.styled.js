@@ -16,9 +16,12 @@ export const SectionTitleWrapper = styled.div`
   justify-content: center;
   align-items: center;
   color: ${({ theme, color }) => (getColor(color, theme))};
+  padding: ${({ padding }) => padding}px;
   h2{
+    color: ${({ theme, color }) => (getColor(color, theme))};
     font-size: 38px;
     font-weight: 100;
+    margin: 0;
     ${({ theme }) => theme.MediaQueryMediumSmall}{
       font-size: 46px;
     }
